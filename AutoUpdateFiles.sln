@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoUpdateFiles", "AutoUpdateFiles\AutoUpdateFiles.csproj", "{0C363AF8-478E-4E45-BACB-C9F7EF590EFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C363AF8-478E-4E45-BACB-C9F7EF590EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C363AF8-478E-4E45-BACB-C9F7EF590EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C363AF8-478E-4E45-BACB-C9F7EF590EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C363AF8-478E-4E45-BACB-C9F7EF590EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C03E0525-718A-4744-B255-2404DBE246EE}
+	EndGlobalSection
+EndGlobal
