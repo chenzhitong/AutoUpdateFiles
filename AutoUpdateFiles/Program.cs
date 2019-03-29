@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Net;
 
 namespace AutoUpdateFiles
 {
@@ -6,7 +8,11 @@ namespace AutoUpdateFiles
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            File.Delete("08_dBFT.pdf");
+            using (WebClient wc = new WebClient())
+            {
+                wc.DownloadFile("https://github.com/NeoResearch/yellowpaper/raw/master/releases/08_dBFT.pdf", "08_dBFT.pdf");
+            }
         }
     }
 }
